@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+
+*{
+   font-family: 'Poppins', sans-serif;
+} 
+
+
+.logo {
+  margin-left: 80px; 
+}
+
+nav h3 {
+  margin-left: 6px;  
+}
+
+nav {
+  display: flex; 
+  align-items: center; 
+  color: #ffffff;
+  background-color: #3e4095; 
+  height: 9.5vh; 
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%; 
+}
+.nav_list {
+  list-style: none; 
+  display: flex; 
+
+}
+
+
+.img_perfil .icone_perfil { 
+  margin-top: 8px; 
+  margin-left: 736px; 
+  width: 40px;
+}
+
+.nome_perfil .nome_perfil {
+  color: #ffffff;
+  margin-left: -15px; 
+}
+
+.img_sair {
+  margin-top: -1px; 
+  margin-left: -5px; 
+  width: 20px;
+}
+
+body { 
+    padding: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.legenda_tipo{
+  margin-left: -10px;
+}
+
+.tipo_user {
+    margin-top: 20px;
+}
+
+.tipo_user label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.tipo_user select {
+    width: 257px; 
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: -10px; 
+  }
+
+.tipo_user select:focus {
+    outline: none;
+    border-color: #3e4095; /* Cor ao receber foco */
+    box-shadow: 0 0 5px rgba(62, 64, 149, 0.5); /* Sombra ao receber foco */
+}
+
+
+
+
+
+
+
+div {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0.7rem;
+    border-radius: 5px;
+}
+
+input, button {
+    width: 98%;
+    padding: 0.6rem 0.4rem;
+    margin: 0.4rem;
+    border-radius: 5px;
+    border-color:#fff;
+}
+
+
+ table {
+         border-collapse: collapse;
+         width: 100%;
+      }
+
+      th, td {
+         border: 1px solid #ddd;
+         padding: 8px;
+         text-align: left;
+      }
+
+      input[type="checkbox"] {
+         display: inline-block;
+      }
+
+      button {
+         text-decoration: none;
+         border: none;
+         background-color: #3e4095;
+         color: #fff;
+         display: block;
+         cursor: pointer;
+         text-align: center;
+         border-radius: 5px;
+         width: 200px;
+         
+
+         display: inline-block;
+         margin: 0 10px;
+      }
+
+
+      button.btnApagar {
+         background-color: red;
+         color: white;
+         padding: 3px 8px;
+         border: none;
+         border-radius: 3px;
+         cursor: pointer;
+      }
+

@@ -1,4 +1,4 @@
-
+[Projeto realizado em parceria](https://github.com/joao23599)
 
 Esse projeto foi apresentado como trabalho final na disciplina de Análise e Projeto de Sistemas da Faculdade CDL. Nosso objetivo foi desenvolver um sistema para ajudar em alguma dificuldade referente a biblioteca da Instituição. Em nosso estudo de caso observamos que os responsáveis pelo local utilizavam folhas de papel para fazer o controle de atividades e frequência dos alunos naquele espaço, visto isso, desenvolvemos um sistema que substituiria o papel, trazendo mais agilidade para as funções dentro da biblioteca. 
 
